@@ -1,0 +1,7 @@
+{
+  "train_feature_duplicate_rows": 74301,
+  "test_feature_duplicate_rows": 28386,
+  "cross_partition_matching_feature_rows": 10279,
+  "excluded_columns_for_matching": ["id", "attack_cat", "label"],
+  "interpretation": "Feature-row overlap across the supplied train and test partitions may make benchmark scores optimistic; results are not independent-flow generalization evidence."
+}
